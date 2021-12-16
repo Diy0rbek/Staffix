@@ -1,0 +1,164 @@
+/* 1200 */
+@media(max-width: 1200px) {
+    .container{
+        max-width: 1024px;
+    }
+    
+    .vacancy .wrapper{
+        justify-content: center;
+    }
+    
+    .benefits .item{
+        max-width: 482px;
+    }
+}
+
+/* 1024 */
+@media(max-width: 1024px) {
+    .container{
+        max-width: 768px;
+    }
+    
+    .main .content{
+        max-width: 630px;
+    }
+    
+    .facts .container{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+    
+    .benefits .item{
+        max-width: 354px;
+    }
+    
+    .benefits .item .top{
+        gap: 20px;
+        padding: 20px 24px 10px;
+    }
+    
+    .benefits .item .number{
+        font-size: 40px;
+    }
+    
+    .benefits .item .title{
+        font-size: 20px;
+    }
+    
+    .benefits .item ul li{
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+}
+
+/* 768 */
+@media(max-width: 768px) {
+    .container{
+        max-width: 425px;
+    }
+    
+    .header{
+        position: fixed;
+        z-index: 999;
+        width: 100%;
+        top: 0;
+    }
+    
+    .header .navbar{
+        justify-content: center;
+        height: 60px;
+    }
+    
+    .header .navbar .logo{
+        z-index: 99;
+    }
+    
+    .header .menu{
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100vh;
+        background: #000;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        opacity: 0;
+        pointer-events: none;
+        transition: 0.3s;
+    }
+    
+    .header.active .menu{
+        opacity: 1;
+        pointer-events: all;
+    }
+    
+    .header .navbar .menu .link{
+        font-size: 30px;
+    }
+    
+    .main .content{
+        padding: 200px 15px;
+    }
+    
+    .main .text{
+        font-size: 16px;
+        margin: 25px 0 35px;
+    }
+    
+    .main .btn{
+        font-size: 16px;
+        padding: 15px 30px;
+    }
+    
+    .site-title .title{
+        font-size: 26px;
+    }
+    
+    .site-title .subtitle{
+        font-size: 15px;
+        margin-top: 15px;
+    }
+    
+    .company .about-com{
+        width: 100%;
+        max-width: 100%;
+    }
+    
+    .company .image-block{
+        width: 100%;
+        margin: 35px 0;
+    }
+    
+    .company .list{
+        gap: 20px 0;
+    }
+    
+    .company .list .item{
+        width: 100%;
+        font-size: 16px;
+    }
+    
+    .contacts form{
+        width: 100%;
+        padding: 0 20px;
+    }
+    
+    .contacts .info{
+        width: 100%;
+        padding: 0 20px;
+        margin-top: 35px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* 425 */
+@media(max-width: 425px) {
+    .container{
+        max-width: 100%;
+    }
+}
